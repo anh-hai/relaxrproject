@@ -1,2 +1,2 @@
 # relaxrproject
-CIS 303 Project - Year Up
+Year Up - CIS 303 Project - Relaxr Project
