@@ -1,0 +1,210 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	font-size: 24px;
+}
+
+div::after{
+	content: "";
+  	clear: both;
+  	display: table;
+}
+
+div.intro{
+	background-image: url('images/header_bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	height: 700px;
+	width: auto;
+} 
+
+div.color-overlay{
+	background: #033048;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	height: 700px;
+	width: 100%;
+	opacity: 0.2;
+	position: absolute;
+	filter: brightness(250%);
+}
+
+div.benefits-bg{
+	height: 750px;
+	background-color: #f0efef;
+}
+
+div.benefits-div{
+	position: relative;
+	font-weight: 300;
+	font-size: 13px;
+	font-color: #033048;
+	width: 50%;
+	height: 85%;
+	margin-left: 12em;
+	top: 10em;
+}
+
+div.testimony{
+	background-image: url('images/testimonial_bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	height: 394px;
+	width: auto;
+}
+
+div.signup{
+	background-color: #f9e42e;
+	height: 120px;
+	width: auto;
+}
+
+div.footer{
+	background-color: #121212;
+	height: 400px;
+	width: auto;
+}
+
+div.social{
+	position: relative;
+	display: inline-block;
+	padding-right: 45px;
+	margin-top: 5.1em;
+	left: 45.5%;
+}
+
+h1.relaxr{
+	top: 30px;
+	position: relative;
+	font-size: 200%;
+	font-weight: 800;
+	color: white;
+	z-index: 1;
+}
+
+h1.intro{
+	position: relative;
+	margin-top: 200px;
+	text-align: center;
+	font-size: 250%;
+	font-weight: 600;
+	color: white;
+	z-index: 1;
+}
+
+h1.benefits{
+	font-weight: 600;
+	font-size: 350%;
+}
+
+h3.relaxr{
+	position: relative;
+	text-align: center;
+	font-size: 200%;
+	font-weight: 800;
+	top: 15%;
+	color: #f9e42e;
+}
+
+p.benefits{
+	font-size: 230%;
+	margin-left: 0.25em;
+}
+
+p.testimony{
+	position: relative;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 150%;
+	color: white;
+	text-align: center;
+	top: 15%;
+	width: 600px;
+	height: auto;
+	margin: auto;
+}
+
+p.amanda{
+	position: relative;
+	font-weight: 600;
+	font-size: 150%;
+	color: white;
+	text-align: center;
+	top: 17%;
+	margin: auto;
+}
+
+p.copyright{
+	position: relative;
+	font-weight: 600;
+	font-size: 75%;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 6em;
+}
+
+ul.benefits{
+	position: relative;
+	font-size: 250%;
+	margin-left: 15%;
+	margin-top: 1.5em;
+	line-height: 1.5;
+}
+
+ul.benefits span{
+    margin-left: -1em;
+    display: block;
+}
+
+.top-left{
+	position: absolute;
+	top: 10px;
+	left: 150px;
+}
+
+button.get-it-now{
+	border: 0;
+	position: relative;
+	margin: auto;
+	top: 80px;
+	background-color: #f9e42e;
+	width: 250px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 110%;
+	font-weight: 800;
+	border-radius: 5px;
+	+transform(translate(-50%,-50%))
+	z-index: 1;
+}
+
+button.signup{
+	border: 0;
+	position: relative;
+	margin: auto;
+	top: 30px;
+	background-color: #033048;
+	width: 300px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 90%;
+	font-weight: 800;
+	color: white;
+	border-radius: 5px;
+	+transform(translate(-50%,-50%))
+}
